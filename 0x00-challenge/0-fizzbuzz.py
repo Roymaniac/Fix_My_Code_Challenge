@@ -17,9 +17,8 @@ def fizzbuzz(n):
 
     tmp_result = []
     for i in range(1, n + 1):
-        # fix error
         if (i % 3) == 0 and (i % 5) == 0:
-            tmp_result.append("FizzBuzz")
+            tmp_result.append("FizzBuzz")  # fix error
         elif (i % 3) == 0:
             tmp_result.append("Fizz")
         elif (i % 5) == 0:
